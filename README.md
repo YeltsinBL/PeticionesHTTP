@@ -10,3 +10,4 @@ JsonSerialization: una vez recibimos información de la URL, debemos de converti
 
 `Decodable`: hace que la información del json que recibimos sea entendible por la aplicación y podamos utilizar esta información de una manera más cómoda.
 JsonDecoder: parsea la información del json a un modelo del tipo 'struct', 'class'.
+CodingKeys: es un enum que permite hacer un mapeo manual cuando los nombres de json y de la las propiedades del 'struct' o 'class' no son igual.
