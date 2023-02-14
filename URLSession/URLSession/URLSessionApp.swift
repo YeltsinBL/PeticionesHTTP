@@ -11,7 +11,8 @@ import SwiftUI
 struct URLSessionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            PokemonView()
         }
     }
 }
