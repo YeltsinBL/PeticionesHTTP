@@ -14,3 +14,6 @@ CodingKeys: es un enum que permite hacer un mapeo manual cuando los nombres de j
 
 `DecodeIfPresent`: para evitar que se cierre la aplicación si el mapeo del json con el modelo de la aplicación no tienen los mismos nombres o no se envían.
 - Si no se envía el valor desde el Json, entonces le asignara un valor nil a la propiedad del modelo.
+
+`NestedContainer`: cuando recibimos información excesiva en el Json de forma anidada, con el 'NestedContainer' podemos acceder a esa información anidada sin crear nuevos modelos para asignar sus valores a las propiedades del modelo ya existente.
+- Para utilizar el 'NestedContainer', primero se tiene que hacer los CodingKeys y el init; dentro del init se podrá utilizar.
