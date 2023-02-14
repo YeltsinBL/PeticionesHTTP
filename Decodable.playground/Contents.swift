@@ -65,5 +65,16 @@ struct User2: Decodable {
     }
     
 }
+
+extension User2 {
+//    inicializamos de forma manual lo que hace el Decodable
+    init(from decoder: Decoder) throws {
+//        extraemos del json sus valores
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+//        asignamos a las propiedades
+        self.name = try container.decode(String.self, forKey: .name)
+        self.age =  try container.decode(Int.self, forKey: .age)
+    }
+}
 let user2 = try? JSONDecoder().decode(User2.self, from: data3)
 user2?.name
