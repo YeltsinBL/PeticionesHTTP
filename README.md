@@ -7,3 +7,6 @@ Realizar ejemplos de como se consume una api utilizando URLSession, JsonDecoder,
 Una petición HTTP es asíncrono, significa que no sabemos cuando recibiremos la respuesta.
 
 JsonSerialization: una vez recibimos información de la URL, debemos de convertir la data que recibimos de tipo byte a Json.
+
+`Decodable`: hace que la información del json que recibimos sea entendible por la aplicación y podamos utilizar esta información de una manera más cómoda.
+JsonDecoder: parsea la información del json a un modelo del tipo 'struct', 'class'.
