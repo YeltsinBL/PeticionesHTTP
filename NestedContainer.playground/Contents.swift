@@ -6,7 +6,7 @@ let data = """
     "age": 24,
     "address": {
         "city": "La Libertad",
-        "zip" "12345",
+        "zip": "12345",
         "street": "Parseo de Json, Nro 1"
     }
 }
@@ -29,6 +29,14 @@ struct User: Decodable {
         case address
     }
     
+//    creacion manual de los init
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.age = try container.decode(Int.self, forKey: .age)
+
+        self.address = try container.decode(Address.self, forKey: .address)
+    }
 }
 
 let user = try JSONDecoder().decode(User.self, from: data)
