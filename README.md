@@ -23,3 +23,6 @@ CodingKeys: es un enum que permite hacer un mapeo manual cuando los nombres de j
 -- Creamos una clase de tipo 'ObservableObject' para utilizar y publicar los cambios en una variable, que se utilizará en la vista.
 -- Realizamos la petición Http y mapeamos los datos obtenidos con el modelo.
 -- Al obtener los datos y actualizar el valor en la variable pública, esta se hace en un hilo de background, por lo cual se debe de realizar dentro del 'DispatchQueue' que es el hilo principal.
+
+`CallBack_vs_AsyncAwait`:
+- CallBack: cada petición anidada que se ha realizado hace uso de CallBack, en este caso se hizo 3 peticiones.
