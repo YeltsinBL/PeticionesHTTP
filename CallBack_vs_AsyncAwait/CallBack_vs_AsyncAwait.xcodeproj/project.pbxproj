@@ -12,6 +12,7 @@
 		3B5A1E77299C07FE006A4A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5A1E76299C07FE006A4A2B /* Assets.xcassets */; };
 		3B5A1E7A299C07FE006A4A2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5A1E79299C07FE006A4A2B /* Preview Assets.xcassets */; };
 		3B5A1E81299C08A6006A4A2B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A1E80299C08A6006A4A2B /* ViewModel.swift */; };
+		3B5A1E83299C7294006A4A2B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A1E82299C7294006A4A2B /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3B5A1E76299C07FE006A4A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B5A1E79299C07FE006A4A2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B5A1E80299C08A6006A4A2B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3B5A1E82299C7294006A4A2B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				3B5A1E72299C07FC006A4A2B /* CallBack_vs_AsyncAwaitApp.swift */,
 				3B5A1E74299C07FC006A4A2B /* ContentView.swift */,
 				3B5A1E80299C08A6006A4A2B /* ViewModel.swift */,
+				3B5A1E82299C7294006A4A2B /* Model.swift */,
 				3B5A1E76299C07FE006A4A2B /* Assets.xcassets */,
 				3B5A1E78299C07FE006A4A2B /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				3B5A1E75299C07FC006A4A2B /* ContentView.swift in Sources */,
 				3B5A1E81299C08A6006A4A2B /* ViewModel.swift in Sources */,
 				3B5A1E73299C07FC006A4A2B /* CallBack_vs_AsyncAwaitApp.swift in Sources */,
+				3B5A1E83299C7294006A4A2B /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

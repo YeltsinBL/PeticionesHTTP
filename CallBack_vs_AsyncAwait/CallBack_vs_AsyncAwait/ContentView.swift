@@ -23,7 +23,13 @@ struct ContentView: View {
             .padding(.top, 32)
         }
         .onAppear{
-            viewModel.executeRequest()
+//            CallBack
+//            viewModel.executeRequest()
+            
+//            Async/Await
+            Task {
+                await viewModel.executeRequest()
+            }
         }
     }
 }

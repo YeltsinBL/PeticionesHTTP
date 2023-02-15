@@ -26,3 +26,8 @@ CodingKeys: es un enum que permite hacer un mapeo manual cuando los nombres de j
 
 `CallBack_vs_AsyncAwait`:
 - CallBack: cada petición anidada que se ha realizado hace uso de CallBack, en este caso se hizo 3 peticiones.
+- Async/Await: utilizando esta forma se puede simplificar el código anidado de las peticiones, haciendo muy fácil de entender y seguir.
+-- Hace las peticiones de forma lineal.
+- Todas las peticiones que se ha realizado han sido de forma asíncrona.
+
+Guía de referencia en el canal de [SwiftBeta](https://www.youtube.com/watch?v=dU8eeng0VzE&list=PLeTOFRUxkMcq85i8WsnQOSsPpNUBgPgzx&index=1)
